@@ -1,0 +1,41 @@
+//META{"name":"Game Activity Update Fixes","description":"Some fixes for the Game Activity update!","author":"BluSpring","version":"1.0.0"}*//{}
+@import url(https://fonts.googleapis.com/css?family=Karla);
+
+/*
+    This setup is in order to replace the Discord friends icon with your own custom image!
+    Replace the URL with your own custom image!
+*/
+.home-icon {
+	display:block;
+	width:40px;
+	height:40px;
+	content:'';
+	background-image: url(https://cdn.discordapp.com/attachments/389465352532131843/439666173957898251/yay_c.gif) !important;
+	background-size:110%;
+	background-repeat:no-repeat;
+	background-position:top center;
+}
+#discord-a { /* This removes the Discord logo! */
+	display:none;
+}
+
+/*
+    This setup is to make the background of the activity feed transparent.
+    I'm not touching the info thing cuz I haven't figured that one out yet.
+*/
+.dock-1-sUKH .dock-10JPBX .da-dock {
+	background-color: rgba(0,0,0,0.8) !important;
+}
+.activityFeed-28jde9 {
+	background-color: rgba(0,0,0,0.8) !important;
+}
+
+/*
+    Nothing else seems to be broken, but if there is anything else broken, please submit an issue!
+    Also, you may want to copy paste this into your theme, mainly due to it not being a whole theme.
+
+    Regards,
+    BluSpring
+
+    https://github.com/BluSpring
+*/
